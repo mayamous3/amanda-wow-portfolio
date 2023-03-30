@@ -1,0 +1,19 @@
+
+body{
+    background-color: lightcyan;
+}
+
+header{
+    background-color:bisque;
+}
+nav{
+    background-color: powderblue;
+}
+h1 {
+    background-color: aqua;
+}
+.aboutme{
+    background-color:chartreuse
+}
+.projects{
+    background-color:coral; }
