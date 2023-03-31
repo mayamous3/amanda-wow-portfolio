@@ -2,15 +2,18 @@
 Collection of Amanda's project work and Bio
 
 ## Description
-Collection of Amanda's project work and Bio
+Collection of Amanda's project work and Bio, uses Cooper and Luna's accomplishments as project placeholders (for fun)
 
 ## Accomplishments
+--> Created reset.css file with defaults
 --> Desktop first responsive using media tags.
---> Accessible images using alt tags.
 --> Created Sections for Bio, Project Work, and Contact information.
 --> Link to Linkedin.
+--> Accessible images using alt tags.
 --> Link to deployed application.
 --> Created Contact form and supplied contact details.
+--> Hide contact form unless user hovers over 'send me a message!'
+--> added root tag and variables for formatting 
 
 ## Acceptance Criteria
 GIVEN I need to sample a potential employee's previous work

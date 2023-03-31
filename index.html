@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
-<body>
+<body id="home">
     <header>
         <h1>Amanda Cooper-Ponte</h1>
         <p>
@@ -16,15 +16,15 @@
         </p>
     </header>
     <nav>
-            <a href="#">Home</a>
-            <a href="#">Bio</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
-            <a href="#">Linkedin</a>
+            <a href="#home">Home</a>
+            <a href="#bio">Bio</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <a href="https://www.linkedin.com/in/cooperponte">Linkedin</a>
     </nav>
     <main>
         <section class="aboutme">
-            <h2>Bio</h2>
+            <h2 id="bio" >Bio</h2>
             <p>I am a Product Manager and Certified Scrum Product Owner for Revport, a revenue and expense management app at Broadridge. 
                 <br>
                 It can feel like a career in product and software development chose me when I least expected it. I graduated from the University of Delaware in 2015 with a degree in English Literature. After this, I sold ski gear at a local shop, used Revport as a fee billing associate at a local bank, became curious about how Revport worked and made a switch to the vendor side.
@@ -33,32 +33,42 @@
                 <br>
                 This page highlights web app / development projects I’ve worked on during my free time (when I’m not walking my two beloved dogs or reading books). </p>
         </section>
-        <section class="projects">
+        <section id="projects">
             <h2>Projects</h2>
             <article class="project1">
-                Horiseon Refactor
+                <header>Horiseon Refactor</header>
+                <a href="https://mayamous3.github.io/horiseon-refactor-2023/"><img src="./assets/images/digital-marketing-meeting.jpg" alt="clip of people meeeting from horiseon site" /> </a>
             </article>
             <article class="project2">
-                Raising Cooper
+                <header>Training Cooper</header>
+                <img src="./assets/images/Cooper.jpg" alt="a handsome black dog with long ears" />
             </article>
             <article class="project3">
-                Raising Luna
+                <header>Training Luna</header>
+                <img src="./assets/images/Luna.jpg" alt="a brindle dog laying in grass" />
             </article>
         </section>
     </main>
     <footer>
-        <h3>Contact</h3>
-        <p>302.650.6271</p>
-        <p>cooperpontea@gmail.com</p>
+        <h3 id="contact" >Contact</h3>
+        <ul>
+            <li>302.650.XXXX</li>
+            <li>cooperpontea@gmail.com</li>
+        </ul>
+        <div class="contactform">
+        <h4 > Send me a message! </h4>
         <form>
             <label for="fname"> First Name</label>
             <input type="text" placeholder="your first name">
             <label for="lname"> Last Name </label>
             <input type="text" placeholder="your last name">
+            <label for="email"> E-Mail </label>
+            <input type="email" placeholder="abc@abc.com"
             <label for="body">Body</label>
             <textarea name="body" placeholder="enter your message here!"></textarea>
             <input type="submit" value="Send"> 
         </form>
+    </div>
     </footer>
 </body>
 </html>

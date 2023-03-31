@@ -1,9 +1,11 @@
 
 *{
 border-width: 2px;
+border-style: solid;
 border-color: darkblue;
 }
 body{
+    margin: 20px;
     background-color: lightcyan;
     display: flex;
     flex-direction: column;
@@ -34,26 +36,51 @@ h1 {
 
 
 .aboutme{
+    padding:10px;
     background-color:chartreuse;
     border-width: 2px;
     border-color: darkblue;
 }
-.projects{
+
+#projects{
+    padding:10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-    border-width: 2px;
-    border-color: darkblue;
+    justify-content: flex-end;
     background-color:coral; }
 
 .project1 {
-    width: 100%;
-    min-height: 200px
+    width: 90%;
+    min-height: 200px 
 }
 
 .project2,
 .project3 {
-width: 49%;
-min-height: 50px
+    width: 45%;
+    min-height: 100px;
+}
+
+img {
+    width: 100%;
+}
+
+.contactform form{
+    display: none;
+}
+
+.contactform:hover form{
+    display: flex;
+    flex-direction: column;
+    min-height:200px;
+    max-width: 400px;
+}
+
+
+@media screen and (max-width: 768px){
+.project2,
+.project3{
+    width: 90%;
+    min-height: 100px;
+}
 }
