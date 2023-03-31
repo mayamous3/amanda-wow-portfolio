@@ -1,19 +1,59 @@
 
+*{
+border-width: 2px;
+border-color: darkblue;
+}
 body{
     background-color: lightcyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 header{
     background-color:bisque;
+    padding: 40px;
+    text-align: center;
 }
 nav{
+    display: flex;
     background-color: powderblue;
 }
+
+nav a{
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
 h1 {
     background-color: aqua;
+    border-width: 2px;
+    border-color: darkblue;
 }
+
+
 .aboutme{
-    background-color:chartreuse
+    background-color:chartreuse;
+    border-width: 2px;
+    border-color: darkblue;
 }
 .projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-width: 2px;
+    border-color: darkblue;
     background-color:coral; }
+
+.project1 {
+    width: 100%;
+    min-height: 200px
+}
+
+.project2,
+.project3 {
+width: 49%;
+min-height: 50px
+}
