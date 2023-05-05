@@ -49,8 +49,28 @@ color:#FF8811;
     border-radius: 25px;
     background-color: #F4D06F;
     padding:10px;
+
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
+}
+.portrait{
+    width: 30%;
 }
 
+.portrait img{
+    border-radius: 360px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: #FF8811;
+}
+
+.bio{
+    width: 60%;
+}
 .aboutme h2{
 text-align: center;
 padding: 5px;
