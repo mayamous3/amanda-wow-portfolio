@@ -1,72 +1,128 @@
 
 *{
-border-width: 2px;
-border-style: solid;
-border-color: darkblue;
+color: #392F5A;
 }
 body{
     margin: 20px;
-    background-color: lightcyan;
+    background-color: #FFF8F0;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 
 header{
-    background-color:bisque;
     padding: 40px;
     text-align: center;
 }
+
+h1{
+    color: #FF8811;
+}
+h3{
+    padding: 20px;
+    text-align: center; 
+}
 nav{
+    padding: 5px;
+    border-radius: 25px;
     display: flex;
-    background-color: powderblue;
+    background-color: #9DD9D2;
 }
 
 nav a{
+    border-radius: 25px;
     padding: 14px 20px;
+    font-weight: bold;
     text-decoration: none;
     text-align: center;
+    background-color: #9DD9D2;
+
 }
 
-h1 {
-    background-color: aqua;
-    border-width: 2px;
-    border-color: darkblue;
+a:hover{
+color:#FF8811;
 }
 
 
 .aboutme{
+    margin-top: 15px;
+    border-radius: 25px;
+    background-color: #F4D06F;
     padding:10px;
-    background-color:chartreuse;
-    border-width: 2px;
-    border-color: darkblue;
 }
 
+.aboutme h2{
+text-align: center;
+padding: 5px;
+border-radius: 25px;
+
+}
 #projects{
-    padding:10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-end;
-    background-color:coral; }
-
-.project1 {
-    width: 90%;
-    min-height: 200px 
+    justify-content: space-between;
+    margin-top:15px;
 }
 
+.sidebar{
+    padding-top: 20px;
+    width: 15%
+}
+
+.panels{
+    width:85%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.projectNew {
+    width: 100%;
+    background-color: #9DD9D2;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+
+.project1 {
+    width: 100%;
+    background-color: #9DD9D2;
+    border-radius: 25px;
+}
+
+.smPanels{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    width: 100%; 
+}
 .project2,
 .project3 {
-    width: 45%;
-    min-height: 100px;
+    margin-top: 3%;
+    width: 48.5%;
+    background-color: #9DD9D2;
+    border-radius: 25px;
 }
 
 img {
-    width: 100%;
+    width: 85%;
+    border-radius: 25px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+
 }
 
 .contactform form{
     display: none;
+}
+
+footer h3{
+    text-align: left;
 }
 
 .contactform:hover form{
@@ -75,7 +131,6 @@ img {
     min-height:200px;
     max-width: 400px;
 }
-
 
 @media screen and (max-width: 768px){
 .project2,
