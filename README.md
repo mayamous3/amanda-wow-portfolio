@@ -32,4 +32,4 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Site Preview
 
-![Preview](./assets/img/finalportfolio.gif)
+![Preview](./assets/images/finalportfolio.gif)
