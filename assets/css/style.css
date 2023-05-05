@@ -137,30 +137,84 @@ img {
 
 }
 
+footer {
+margin-top: 15px;
+border-style: solid;
+border-width: 4px;
+border-radius: 25px;
+border-color: #9DD9D2;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+padding-bottom: 25px;
+}
+
+.contactform{
+    width: 50%
+}
 .contactform form{
     display: none;
 }
 
+footer ul{
+    width: 50%;
+    padding-left: 25px;
+    list-style-type: none;
+}
+
 footer h3{
+    width: 100%;
     text-align: left;
+    color: #FF8811
+}
+
+footer h4{
+    text-align: left;
+    color:#9DD9D2;
+}
+
+footer h4:hover{
+cursor: pointer;
 }
 
 .contactform:hover form{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    padding: 5px;
     min-height:200px;
     max-width: 400px;
+    cursor: pointer;
 }
 
+input[type=submit]{
+background-color: #392F5A;
+border: none;
+border-radius: 25px;
+color: #FFF8F0;
+font-weight: bold;
+font-size: medium;
+height: 25px;
+margin: 10px;
+}
+
+input[type=submit]:hover{
+    background-color: #9DD9D2;
+    border: none;
+    border-radius: 25px;
+    font-size: medium;
+    height: 25px;
+    margin: 10px;
+    }
 @media screen and (max-width: 768px){
 .project2,
 .project3{
-    width: 90%;
+    width: 100%;
     min-height: 100px;
 }
 .sidebar{
     padding-top: 20px;
     padding-bottom:15px;
-    width: 90%
+    width: 100%
 }
 }
